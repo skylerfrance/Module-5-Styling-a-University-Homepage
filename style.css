@@ -1,0 +1,137 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+main {
+
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+html {
+  font-family: Lora, serif;
+  font-size: 10px;
+}
+
+h1, h2 {
+  font-family: Rubik, sans-serif;
+  letter-spacing: 0.5rem;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+section h2, p {
+  text-indent: 20px;
+}
+
+p, li {
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
+  line-height: 2.5rem;
+}
+
+a {
+  outline: none;
+}
+
+a[href="http"] {
+  padding-right: 20px;
+  background-size: 16px 16px;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: #966;
+}
+
+ul {
+  list-style-type: square;
+  margin: 2rem 0;
+}
+
+ol {
+  list-style-type: lower-latin;
+  margin: 2rem 0;
+}
+
+nav ul {
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+nav li {
+  list-style-type: none;
+  margin-bottom: 1rem;
+}
+
+nav li a {
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  line-height: 5;
+  text-align: center;
+  font-size: 2.5rem;
+  border: 1.5px solid #966;
+}
+
+nav li a:hover, nav li a:focus {
+  color: white;
+  background: #966;
+}
+
+nav li a:active {
+  color: white;
+  background: black;
+}
